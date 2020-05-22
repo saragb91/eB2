@@ -1,6 +1,7 @@
 import React,{useState, useEffect} from 'react';
 import UsersList from '../UsersList'
 import Chart from "react-google-charts";
+import PropTypes from "prop-types";
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col";
 import GoogleMapReact from "google-map-react";
@@ -28,8 +29,8 @@ const UsersDetails = (props) => {
         });
         
         
-    //let latMap = user["maps"].map(ubi => (ubi.lat));
-    //let lengMap = user["maps"].map(ubi => (ubi.lng))
+    // let latMap = user["maps"].map(ubi => (ubi['lat']));
+    // let lengMap = user["maps"].map(ubi => (ubi['lng']))
 
     return (
         <>
@@ -74,21 +75,21 @@ const UsersDetails = (props) => {
                                 zoom={13}
                                 >
                                 <Marker
-                                    //lat={latMap[0]}
-                                   // lng={lengMap[0]}
-                                    //text="Lugares"
+                                    // lat={latMap[0]}
+                                    // lng={lengMap[0]}
+                                    // text="Lugares"
                                 />
 
                                 <Marker
-                                   // lat={latMap[1]}
-                                    //lng={lengMap[1]}
-                                   // text="Lugares"
+                                    // lat={latMap[1]}
+                                    // lng={lengMap[1]}
+                                    // text="Lugares"
                                 />
 
                                 <Marker
-                                   // lat={latMap[3]}
-                                   // lng={lengMap[3]}
-                                   // text="Lugares"
+                                    // lat={latMap[3]}
+                                    // lng={lengMap[3]}
+                                    // text="Lugares"
                                 />
                         
                             </GoogleMapReact>
@@ -101,5 +102,9 @@ const UsersDetails = (props) => {
 
          );
 }
+
+UsersDetails.propTypes={
+    userList:PropTypes.array.isRequired,
+  }
  
 export default UsersDetails;
