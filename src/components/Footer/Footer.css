@@ -1,0 +1,13 @@
+.divFooter{
+    padding: 50px;
+    border-top: solid 1px #38cae9 ;
+    background-color: #f1f6fb;
+}
+
+.spinoff{
+    width: 70%;
+}
+
+.rowFooter{
+    align-items: center;
+}

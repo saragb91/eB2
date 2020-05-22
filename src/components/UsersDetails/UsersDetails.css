@@ -1,0 +1,29 @@
+.headerUser{
+    text-align: center;   
+    margin-bottom:100px ;
+}
+
+.h3User{
+    margin: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    text-align: center;
+    color:#366894
+}
+
+.imageUser{
+    width: 70%;
+}
+
+.rowMapChart{
+    justify-content: space-around;
+    margin: 90px 0;
+}
+
+.colMapChart{
+    margin: 0 10px;
+}
+
+.chartGoogle{
+    justify-content: center;
+}

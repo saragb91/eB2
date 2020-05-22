@@ -1,0 +1,18 @@
+.userRow{
+    margin: 50px;
+    justify-content: space-between;
+    padding: 200px 0;
+}
+
+.userName{
+    padding: 20px;
+    color: #3fb3d4 ;
+}
+
+.linkCard{
+   transition: all .7s ease-in-out;
+}
+
+.linkCard:hover{
+    text-decoration-color: #c5dfff;
+}

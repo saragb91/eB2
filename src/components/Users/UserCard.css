@@ -1,0 +1,17 @@
+.userCards{
+    text-align: center;
+}
+
+.userPicture {
+    height: 200px;
+    object-fit: cover;
+}
+
+.userPicture{
+    transition: all .5s ease-in-out;
+
+}
+
+.userPicture:hover{
+    filter: opacity(.6);
+}
