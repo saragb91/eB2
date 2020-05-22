@@ -26,11 +26,10 @@ const UsersDetails = (props) => {
             
             
         });
-        console.log(user) 
         
         
-    let latMap = user["maps"].map(ubi => (ubi.lat));
-    let lengMap = user["maps"].map(ubi => (ubi.lng))
+    //let latMap = user["maps"].map(ubi => (ubi.lat));
+    //let lengMap = user["maps"].map(ubi => (ubi.lng))
 
     return (
         <>
@@ -75,21 +74,21 @@ const UsersDetails = (props) => {
                                 zoom={13}
                                 >
                                 <Marker
-                                    lat={latMap[0]}
-                                    lng={lengMap[0]}
-                                    text="Lugares"
+                                    //lat={latMap[0]}
+                                   // lng={lengMap[0]}
+                                    //text="Lugares"
                                 />
 
                                 <Marker
-                                    lat={latMap[1]}
-                                    lng={lengMap[1]}
-                                    text="Lugares"
+                                   // lat={latMap[1]}
+                                    //lng={lengMap[1]}
+                                   // text="Lugares"
                                 />
 
                                 <Marker
-                                    lat={latMap[3]}
-                                    lng={lengMap[3]}
-                                    text="Lugares"
+                                   // lat={latMap[3]}
+                                   // lng={lengMap[3]}
+                                   // text="Lugares"
                                 />
                         
                             </GoogleMapReact>
