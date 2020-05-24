@@ -17,7 +17,6 @@ const UserCard = ({name, surname, picture, id}) => {
                     </Link>
                 </Card>
             </Col>
-        
         </>
     );
 }
@@ -27,7 +26,6 @@ UserCard.propTypes={
     surname: PropTypes.string.isRequired,
     picture: PropTypes.string.isRequired,
     id: PropTypes.number.isRequired,
-
-  }
+}
 
 export default UserCard;

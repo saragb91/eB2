@@ -4,7 +4,7 @@ import './Header.css'
 const Header = () => {
     return ( 
         <header>
-            <h1>eB2</h1>
+            <img src="https://eb2.tech/wp-content/uploads/2018/07/eB2_Logo_transparente-160x160.png" alt=""/>
         </header>
      );
 }

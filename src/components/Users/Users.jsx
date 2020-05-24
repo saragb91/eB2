@@ -8,7 +8,6 @@ import './Users.css'
 
 const Users = () => {
 
-
     return ( 
         <>
             <Header />

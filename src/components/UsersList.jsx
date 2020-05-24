@@ -52,7 +52,6 @@ const UsersList = [
                 lat:40.438905,
                 lng:-3.683439
             }
-
         ]
     },
 
@@ -110,7 +109,6 @@ const UsersList = [
                 lng:-3.714080
             }
         ]
-        
     },
     {
         name:'Sofía',
@@ -165,7 +163,6 @@ const UsersList = [
                 lat:40.428844,
                 lng:-3.641124
             }
-
         ]
     },
 
