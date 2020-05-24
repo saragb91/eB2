@@ -15,10 +15,10 @@ function App() {
         <>
           <Route exact path= '/' component= {Users}/>
           <Route exact path = '/userDetails/:id' component={(props) => <UsersDetails userList={userList} {...props}/>} />
+          <Footer />
         </>
       </Switch>
    </Router>
-   <Footer />
     </>
   );
 }

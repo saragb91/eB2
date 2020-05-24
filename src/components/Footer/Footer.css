@@ -1,6 +1,6 @@
 .divFooter{
-    padding: 50px;
-    border-top: solid 1px #38cae9 ;
+    padding: 40px 60px;
+    border-top: solid 7px #3fb2d4;
     background-color: #f1f6fb;
 }
 
@@ -10,4 +10,21 @@
 
 .rowFooter{
     align-items: center;
+}
+
+.colFooter{
+    margin-left: 30px;
+}
+
+h4::after{
+    content: ' ';
+    width: 30px;
+    display: block;
+    height: 2px;
+    margin: 10px 0 0;
+    background-color: #3fb3d4;
+}
+
+.colFooter p{
+    font-size: 13px;
 }
