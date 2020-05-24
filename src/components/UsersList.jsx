@@ -3,7 +3,7 @@ const UsersList = [
         name:'Ana',
         surname: 'García',
         picture: 'https://img.freepik.com/foto-gratis/mujer-casa-meditando_23-2148542231.jpg?size=626&ext=jpg',
-        id: 1,
+        id: 0,
         sleep: [
             ['Day', 'Hour'],
             ['1', 6.30],
@@ -60,7 +60,7 @@ const UsersList = [
         name:'Juan',
         surname: 'Fernández',
         picture: 'https://img.freepik.com/foto-gratis/tiro-medio-hombre-sonriente-fondo-ladrillo_23-2148334714.jpg?size=626&ext=jpg',
-        id: 2,
+        id: 1,
         sleep: [
             ['Day', 'Hour'],
             ['1', 8.30],
@@ -116,7 +116,7 @@ const UsersList = [
         name:'Sofía',
         surname: 'González',
         picture: 'https://img.freepik.com/foto-gratis/empresaria-confiada-sonriente-que-presenta-brazos-cruzados_1262-20950.jpg?size=626&ext=jpg',
-        id: 3,
+        id: 2,
         sleep: [
             ['Day', 'Hour'],
             ['1', 2.30],

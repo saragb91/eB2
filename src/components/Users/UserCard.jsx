@@ -11,7 +11,7 @@ const UserCard = ({name, surname, picture, id}) => {
         <>
             <Col md={4}>
                 <Card className = 'userCards'>
-                    <Link class='linkCard' to={`/userDetails/${id}`}>
+                    <Link className='linkCard' to={`/userDetails/${id}`}>
                         <Card.Img src={picture}className='userPicture'></Card.Img>    
                         <Card.Title className="userName">{name} {surname}</Card.Title>
                     </Link>
